@@ -1,0 +1,104 @@
+@import (css)
+  url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap");
+
+@import "~antd/dist/antd.less";
+@primary-color: rgb(41, 41, 41); // primary color for all components
+@link-color: rgb(117, 117, 117); // link color
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+@font-size-base: 14px; // major text font size
+@heading-color: rgba(0, 0, 0, 0.85); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
+@disabled-color: rgba(0, 0, 0, 0.25); // disable state color
+@border-radius-base: 4px; // major border radius
+@border-color-base: #d9d9d9; // major border color
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // major shadow for layers
+
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.site-layout {
+  background: #fff;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: #ccc;
+  border: 1px solid #000;
+}
+
+.menu {
+  float: right;
+}
+.menu .ant-menu-item {
+  padding: 5px 10px;
+  white-space: nowrap;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+  transition: all 0.15s ease-in-out 0s;
+  border-bottom: none !important;
+}
+.menu .ant-menu-item-selected {
+  color: rgb(41, 41, 41);
+  font-weight: 500;
+}
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.header {
+  background: #fff;
+}
+
+.profile {
+  border-color: red;
+  margin-top: 10;
+  padding: 24;
+  margin: 0;
+  min-height: 280;
+  border-width: 1;
+  border-color: "red";
+  width: 940px;
+  max-width: 100%;
+  margin: 0px auto;
+  padding: 150px 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.profile .image {
+  width: 270px;
+  height: 270px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 0px auto;
+  border: 1px solid rgb(237, 237, 237);
+  flex-shrink: 0;
+}
+
+.profile .info {
+  padding-left: 30px;
+}
+
+.profile .info h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(41, 41, 41);
+  margin-bottom: 20px;
+}
+
+.profile .info p {
+  color: rgb(41, 41, 41);
+  font-size: 15px;
+  line-height: 2;
+}
