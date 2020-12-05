@@ -10,10 +10,29 @@ if (typeof require !== "undefined") {
 }
 
 module.exports = withCSS({
+  exportPathMap: () => ({
+    "/": {
+      page: "/",
+    },
+  }),
+  assetPrefix: isProd ? "" : "",
   cssModules: true,
   cssLoaderOptions: {
     importLoaders: 1,
     localIdentName: "[local]___[hash:base64:5]",
+  },
+  webpack: (config, { dev }) => {
+    // Perform customizations to webpack config
+    // console.log('webpack');
+    // console.log(config.module.rules, dev);
+    config.module.rules = config.module.rules.map((rule) => {
+      if (rule.loader === "babel-loader") {
+        rule.options.cacheDirectory = false;
+      }
+      return rule;
+    });
+    // Important: return the modified config
+    return config;
   },
   ...withLess(
     withSass({
