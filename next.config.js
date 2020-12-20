@@ -10,6 +10,7 @@ if (typeof require !== "undefined") {
 }
 
 module.exports = withCSS({
+  target: 'serverless',
   exportPathMap: () => ({
     "/": {
       page: "/",
@@ -21,7 +22,9 @@ module.exports = withCSS({
     importLoaders: 1,
     localIdentName: "[local]___[hash:base64:5]",
   },
-  webpack: (config, { dev }) => {
+  webpack: (config, {
+    dev
+  }) => {
     // Perform customizations to webpack config
     // console.log('webpack');
     // console.log(config.module.rules, dev);
@@ -32,6 +35,16 @@ module.exports = withCSS({
       return rule;
     });
     // Important: return the modified config
+
+    config.module.rules.push({
+      test: /\.md$/,
+      use: 'raw-loader'
+    })
+    config.module.rules.push({
+      test: /\.yml$/,
+      use: 'raw-loader'
+    })
+
     return config;
   },
   ...withLess(
