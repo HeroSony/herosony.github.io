@@ -15,8 +15,8 @@ const Nav = (props) => {
       section: "navbar",
     },
     {
-      title: "Portfolio",
-      url: "",
+      title: "Blog",
+      url: "/blog",
       section: "projects",
     },
     // {
@@ -43,12 +43,13 @@ const Nav = (props) => {
           >
             {menu.map((item) => (
               <Menu.Item
+                key={item.title}
                 className={
                   item.url === router.pathname ? "ant-menu-item-selected" : ""
                 }
               >
-                {/* <Link href={item.url}>{item.title}</Link> */}
-                <a href={`#${item.section}`}>{item.title}</a>
+                <Link href={item.url}>{item.title}</Link>
+                {/* <a href={`#${item.section}`}>{item.title}</a> */}
               </Menu.Item>
             ))}
           </Menu>

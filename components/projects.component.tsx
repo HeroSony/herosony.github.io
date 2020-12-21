@@ -63,7 +63,7 @@ const Projects = (props) => {
         </div>
         <div className="projects-wrapper">
           {PROJECTS.map((item) => (
-            <Project {...item}>
+            <Project key={item.title} {...item}>
               <small>Built using {item.tech.join(", ")}</small>
               <p>{item.desc}</p>
             </Project>

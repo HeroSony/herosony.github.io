@@ -4,7 +4,7 @@ export const FacebookSvg = () => (
     // fill="rgb(41, 41, 41)"
     stroke="rgb(255, 255, 255)"
     fill="rgb(255, 255, 255)"
-    stroke-width="0"
+    strokeWidth="0"
     viewBox="0 0 512 512"
     height="1em"
     width="1em"
@@ -18,7 +18,7 @@ export const InstagramSvg = () => (
   <svg
     stroke="rgb(255, 255, 255)"
     fill="rgb(255, 255, 255)"
-    stroke-width="0"
+    strokeWidth="0"
     viewBox="0 0 512 512"
     height="1em"
     width="1em"
@@ -33,7 +33,7 @@ export const TwitterSvg = () => (
   <svg
     stroke="rgb(255, 255, 255)"
     fill="rgb(255, 255, 255)"
-    stroke-width="0"
+    strokeWidth="0"
     viewBox="0 0 512 512"
     height="1em"
     width="1em"
@@ -47,7 +47,7 @@ export const YoutubeSvg = () => (
   <svg
     stroke="rgb(255, 255, 255)"
     fill="rgb(255, 255, 255)"
-    stroke-width="0"
+    strokeWidth="0"
     viewBox="0 0 512 512"
     height="1em"
     width="1em"

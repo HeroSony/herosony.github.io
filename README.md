@@ -1,4 +1,11 @@
 ### In case deploy not know css and js path
 
-try to remove forward slash from index.html
-ex: "/\_next/static/css/a2a3a617.9de25f6a.chunk.css" to "\_next/static/css/a2a3a617.9de25f6a.chunk.css"
+This should only be necessary if your site uses files or directories that start with underscores since Jekyll considers these to be special resources and does not copy them to the final site.
+
+### Bypassing Jekyll on GitHub Pages
+
+It is now possible to completely bypass Jekyll processing on GitHub Pages by creating a file named .nojekyll in the root of your pages repo and pushing it to GitHub.
+
+### Add Favicon
+
+Go to [Favicon Generator Site](https://realfavicongenerator.net/) and upload your image.

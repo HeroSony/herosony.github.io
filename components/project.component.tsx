@@ -56,6 +56,7 @@ const Project = ({ title, links, img, children }) => {
               );
             return (
               <Button
+                key={title}
                 icon={icon}
                 type="dashed"
                 ghost
