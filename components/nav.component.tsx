@@ -14,11 +14,11 @@ const Nav = (props) => {
       url: "/",
       section: "navbar",
     },
-    {
-      title: "Blog",
-      url: "/blog",
-      section: "projects",
-    },
+    // {
+    //   title: "Blog",
+    //   url: "/blog",
+    //   section: "projects",
+    // },
     // {
     //   title: "Contact",
     //   url: "/contact",
