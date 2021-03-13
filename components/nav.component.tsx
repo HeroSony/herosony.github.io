@@ -34,7 +34,7 @@ const Nav = (props) => {
             <strong>SONY</strong>
           </p>
 
-          <Menu
+          {/* <Menu
             theme="light"
             mode="horizontal"
             // defaultSelectedKeys={["1"]}
@@ -49,10 +49,9 @@ const Nav = (props) => {
                 }
               >
                 <Link href={item.url}>{item.title}</Link>
-                {/* <a href={`#${item.section}`}>{item.title}</a> */}
               </Menu.Item>
             ))}
-          </Menu>
+          </Menu> */}
         </div>
       </nav>
     </>

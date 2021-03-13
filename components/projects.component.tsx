@@ -1,28 +1,28 @@
 import Project from "./project.component";
 
 const PROJECTS = [
-  {
-    title: "Live Karaoke",
-    img: "/images/live-karaoke-web.png",
-    tech: ["Django", "Amazon RDS", "VueJS", "React Native"],
-    desc:
-      "This is a full-stack website and mobile app that I made which lets the users sing khmer karaoke song and post their recording to the public.",
-    links: [
-      {
-        title: "Web",
-        link: "https://livekaraoke.net",
-      },
-      {
-        title: "iOS",
-        link: "https://apps.apple.com/us/app/live-karaoke/id1514812136",
-      },
-      {
-        title: "Android",
-        link:
-          "https://play.google.com/store/apps/details?id=com.rainbowtunes.livekaraoke",
-      },
-    ],
-  },
+  // {
+  //   title: "Live Karaoke",
+  //   img: "/images/live-karaoke-web.png",
+  //   tech: ["Django", "Amazon RDS", "VueJS", "React Native"],
+  //   desc:
+  //     "This is a full-stack website and mobile app that I made which lets the users sing khmer karaoke song and post their recording to the public.",
+  //   links: [
+  //     {
+  //       title: "Web",
+  //       link: "https://livekaraoke.net",
+  //     },
+  //     {
+  //       title: "iOS",
+  //       link: "https://apps.apple.com/us/app/live-karaoke/id1514812136",
+  //     },
+  //     {
+  //       title: "Android",
+  //       link:
+  //         "https://play.google.com/store/apps/details?id=com.rainbowtunes.livekaraoke",
+  //     },
+  //   ],
+  // },
   {
     title: "Sothoeun Website",
     img: "/images/sothoeun-web.png",

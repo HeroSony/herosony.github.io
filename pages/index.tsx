@@ -1,15 +1,8 @@
-import Head from "next/head";
-import { Layout, Image, Avatar, Tooltip, Button, List, Typography } from "antd";
-import Icon from "@ant-design/icons";
-import Link from "next/link";
-import { _Header } from "../_includes/header";
-import { getConfig, getAllPosts } from "../api";
 import React, { useEffect } from "react";
-import About from "../components/about.component";
+import Footer from "../components/footer.component";
 import Header from "../components/header.component";
 import Nav from "../components/nav.component";
 import Projects from "../components/projects.component";
-import Footer from "../components/footer.component";
 
 export default function Home(props) {
   useEffect(() => {
