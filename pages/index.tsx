@@ -15,6 +15,10 @@ export default function Home(props) {
 
     console.log("FOREST", forest);
 
+    fetch("/ai_streamline_workflow.json")
+      .then(response => response.json())
+      .then(json => console.log("JSON", json));
+
     window.onscroll = () => {
       let scrollPos =
         document.documentElement.scrollTop || document.body.scrollTop;

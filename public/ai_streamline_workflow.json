@@ -1,0 +1,39 @@
+[
+	{
+	  "title": "AI Chatbots",
+	  "description": "AI chatbots are programs that use natural language processing (NLP) and machine learning to simulate human-like conversations and respond to queries.",
+	  "cards": [
+		{
+		  "title": "ChatGPT",
+		  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1024px-ChatGPT_logo.svg.png",
+		  "link": "https://chat.openai.com"
+		},
+		{
+		  "title": "Copilot Microsoft ",
+		  "logo": "https://www.bing.com/rp/vE266_E90czuUc-Fs55Qoq9hIBc.svg",
+		  "link": "https://www.bing.com/chat?q=Bing+AI&FORM=hpcodx"
+		},
+		{
+		  "title": "Gemini Google",
+		  "logo": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-gemini-icon.png",
+		  "link": "https://gemini.google.com"
+		}
+	  ]
+	},
+	{
+	  "title": "AI Script Generator",
+	  "description": "Create AI generated scripts for your videos, presentations, or marketing campaigns in seconds. Forget about writer's block and focus on what truly matters: bringing your vision to life.",
+	  "cards": [
+		{
+		  "title": "DupDub",
+		  "logo": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_3f559b130898eb414f13db8ffae03bea/dupdub.png",
+		  "link": "https://www.dupdub.com"
+		},
+		{
+		  "title": "Synthesia",
+		  "logo": "https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_4e9fbc08a72748b660d4e74d7f73b165/synthesia.png",
+		  "link": "https://www.synthesia.io"
+		}
+	  ]
+	}
+  ]
