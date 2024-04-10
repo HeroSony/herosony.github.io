@@ -12,13 +12,13 @@ import { Button } from "antd";
 const Project = ({ title, links, img, children }) => {
   return (
     <div className="project">
-      <div className="card-wrap">
+      {/* <div className="card-wrap">
         <div className="card">
           <div className="card-bg">
             <img src={img} alt={"Screenshot of " + title} width="115%" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <a
         className="project-link"

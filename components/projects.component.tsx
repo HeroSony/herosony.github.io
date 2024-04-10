@@ -23,17 +23,39 @@ const PROJECTS = [
   //     },
   //   ],
   // },
+  // {
+  //   title: "Sothoeun Website",
+  //   img: "/images/sothoeun-web.png",
+  //   tech: ["Django", "Bootstrap", "jQuery"],
+  //   desc:
+  //     "This is a buying, selling and fixing mobile website in Phnom Penh, Cambodia.",
+  //   links: [
+  //     {
+  //       title: "Web",
+  //       link: "http://sothoeun.com/",
+  //     },
+  //   ],
+  // },
   {
-    title: "Sothoeun Website",
+    title: "HomeIdeaPro",
     img: "/images/sothoeun-web.png",
-    tech: ["Django", "Bootstrap", "jQuery"],
+    tech: ["Python/Django"],
     desc:
-      "This is a buying, selling and fixing mobile website in Phnom Penh, Cambodia.",
+      "Investigation and Consultation Services for Historical and Contemporary Building Construction Projects [សេវាកម្មសិក្សាគម្រោងសាងសង់អគារបុរាណ និងទំនើប]",
     links: [
       {
         title: "Web",
-        link: "http://sothoeun.com/",
+        link: "https://homeideapro.com",
       },
+    ],
+  },
+  {
+    title: "Rummit Investment",
+    img: "/images/sothoeun-web.png",
+    tech: ["Laravel", "Mobile/ReactNative"],
+    desc:
+      "Forex Investment",
+    links: [
     ],
   },
 ];
